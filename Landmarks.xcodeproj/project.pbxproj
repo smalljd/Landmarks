@@ -36,6 +36,7 @@
 		1F47E4EF22C989CD00F29911 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47E4EE22C989CD00F29911 /* Data.swift */; };
 		1F47E4F122C98AFE00F29911 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47E4F022C98AFE00F29911 /* LandmarkRow.swift */; };
 		1F47E4F322C9929900F29911 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47E4F222C9929900F29911 /* LandmarkList.swift */; };
+		1FDB948022D15291005107A6 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FDB947F22D15291005107A6 /* charleyrivers.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		1F47E4EE22C989CD00F29911 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		1F47E4F022C98AFE00F29911 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		1F47E4F222C9929900F29911 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		1FDB947F22D15291005107A6 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 		1F47E4D322C989AD00F29911 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1FDB947F22D15291005107A6 /* charleyrivers.jpg */,
 				1F47E4D422C989AD00F29911 /* turtlerock.jpg */,
 				1F47E4D522C989AD00F29911 /* silversalmoncreek.jpg */,
 				1F47E4D622C989AD00F29911 /* icybay.jpg */,
@@ -330,6 +333,7 @@
 				1F47E4EA22C989AE00F29911 /* yukon_charleyrivers.jpg in Resources */,
 				1F47E4A222C97AE300F29911 /* LaunchScreen.storyboard in Resources */,
 				1F47E4C622C97B5D00F29911 /* Colors.xcassets in Resources */,
+				1FDB948022D15291005107A6 /* charleyrivers.jpg in Resources */,
 				1F47E49F22C97AE300F29911 /* Preview Assets.xcassets in Resources */,
 				1F47E4E222C989AE00F29911 /* silversalmoncreek.jpg in Resources */,
 				1F47E49C22C97AE300F29911 /* Assets.xcassets in Resources */,
