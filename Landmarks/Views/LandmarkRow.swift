@@ -16,6 +16,12 @@ struct LandmarkRow : View {
                 .cornerRadius(15)
             Text(landmark.name)
             Spacer()
+
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .imageScale(.medium)
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
