@@ -9,7 +9,12 @@
 import SwiftUI
 
 struct LandmarkDetail : View {
+    @EnvironmentObject var userData: UserData
     var landmark: Landmark
+    var landmarkIndex: Int {
+        userData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    }
+
     var body: some View {
         VStack {
             MapView(coordinate: landmark.locationCoordinate)
@@ -18,21 +23,34 @@ struct LandmarkDetail : View {
                 .offset(y: -130)
                 .padding(.bottom, -130) 
             VStack(alignment: .leading, spacing: 12) {
-                Text(landmark.name)
-                    .font(.title)
-                    .color(.primary)
-                    HStack {
-                        Text(landmark.park)
-                            .font(.subheadline)
-                            Spacer()
-                            Text(landmark.state)
-                                .font(.subheadline)
+                HStack {
+                    Text(landmark.name)
+                        .font(.title)
+                        .color(.primary)
+                    Button(action: {
+                        self.userData.landmarks[self.landmarkIndex].isFavorite.toggle()
+                    }) {
+                        if self.userData.landmarks[self.landmarkIndex].isFavorite {
+                            Image(systemName: "star.fill")
+                                .foregroundColor(Color.yellow)
+                        } else {
+                            Image(systemName: "star")
+                                .foregroundColor(Color.gray)
                         }
                     }
-                    .padding()
-            Spacer()
+                }
+                HStack {
+                    Text(landmark.park)
+                        .font(.subheadline)
+                    Spacer()
+                    Text(landmark.state)
+                        .font(.subheadline)
+                }
             }
-            .navigationBarTitle(Text(landmark.name), displayMode: .inline)
+            .padding()
+            Spacer()
+        }
+        .navigationBarTitle(Text(landmark.name), displayMode: .inline)
     }
 }
 
