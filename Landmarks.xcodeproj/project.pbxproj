@@ -37,6 +37,7 @@
 		1F47E4F122C98AFE00F29911 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47E4F022C98AFE00F29911 /* LandmarkRow.swift */; };
 		1F47E4F322C9929900F29911 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47E4F222C9929900F29911 /* LandmarkList.swift */; };
 		1FDB948022D15291005107A6 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FDB947F22D15291005107A6 /* charleyrivers.jpg */; };
+		1FFDE33922D155E500562D3A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDE33822D155E500562D3A /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		1F47E4F022C98AFE00F29911 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		1F47E4F222C9929900F29911 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		1FDB947F22D15291005107A6 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
+		1FFDE33822D155E500562D3A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 			children = (
 				1F47E4EE22C989CD00F29911 /* Data.swift */,
 				1F47E4CE22C987CF00F29911 /* Landmark.swift */,
+				1FFDE33822D155E500562D3A /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				1F47E4CB22C97EC200F29911 /* MapView.swift in Sources */,
 				1F47E49522C97ADF00F29911 /* SceneDelegate.swift in Sources */,
 				1F47E49A22C97ADF00F29911 /* LandmarkDetail.swift in Sources */,
+				1FFDE33922D155E500562D3A /* UserData.swift in Sources */,
 				1F47E49822C97ADF00F29911 /* Landmarks.xcdatamodeld in Sources */,
 				1F47E4C922C97DBA00F29911 /* CircleImage.swift in Sources */,
 				1F47E4EF22C989CD00F29911 /* Data.swift in Sources */,
